@@ -1,0 +1,11 @@
+# Upcoming tournaments/showcases. Add a new entry per event; keep past
+# events at the bottom of schedule.md under "Past Events" once they pass,
+# or add a `past: true` key and filter in the template — either works.
+#
+# - event: "Tournament Name"
+#   date: "2026-10-04"
+#   end_date: ""            # optional, for multi-day events
+#   location: "City, State"
+#   club_team: ""
+#   division: ""
+#   url: ""                 # tournament/bracket page if public
