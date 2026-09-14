@@ -1,0 +1,26 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.data.profile.name | jsonify }},
+  "url": {{ site.url | jsonify }},
+  {% if site.data.profile.height != "" %}"height": {{ site.data.profile.height | jsonify }},{% endif %}
+  {% if site.data.profile.high_school != "" %}"alumniOf": {{ site.data.profile.high_school | jsonify }},{% endif %}
+  {% if site.data.profile.location != "" %}"homeLocation": {
+    "@type": "Place",
+    "name": {{ site.data.profile.location | jsonify }}
+  },{% endif %}
+  "jobTitle": {{ site.data.profile.position | jsonify }},
+  "knowsAbout": {{ site.data.profile.sport | jsonify }}
+  {% if site.data.profile.club_team != "" %},
+  "memberOf": {
+    "@type": "SportsTeam",
+    "name": {{ site.data.profile.club_team | jsonify }}
+    {% if site.data.profile.club_team_url != "" %},"url": {{ site.data.profile.club_team_url | jsonify }}{% endif %}
+  }
+  {% endif %}
+  {% if site.data.profile.social.size > 0 %},
+  "sameAs": {{ site.data.profile.social | jsonify }}
+  {% endif %}
+}
+</script>
