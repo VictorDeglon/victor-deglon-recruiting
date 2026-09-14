@@ -1,0 +1,24 @@
+# Measurables — edit here, not on the page. The /stats page loops over this.
+# Re-date every entry whenever a number changes; a stale date undercuts the
+# whole page more than a merely-okay number does.
+
+- metric: "Vertical Jump"
+  current: "29.5\""
+  goal: "43\""
+  last_updated: "2025-09-25"
+  context: ""
+- metric: "Standing Reach"
+  current: "8'0\""
+  goal: ""
+  last_updated: "TBD"        # placeholder date from initial build — needs a real measurement date
+  context: ""
+- metric: "Approach / Touch Reach"
+  current: "10'4\""
+  goal: "11'2\" (11'6\" senior year)"
+  last_updated: "2025-06-19"
+  context: "LA Showcase 14U"
+- metric: "Serve Speed"
+  current: "56 mph"
+  goal: ""
+  last_updated: "Jan 2026"
+  context: "Practice, radar gun"
