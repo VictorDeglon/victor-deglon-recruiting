@@ -1,0 +1,18 @@
+# Victor Deglon — Volleyball Recruiting Profile
+
+> Opposite hitter recruiting profile: measurables, film, schedule, and
+> academics. Low-cost navigation hint for AI crawlers — no major AI
+> company has publicly committed to reading llms.txt as of early 2026, so
+> treat this as a bonus, not a ranking lever.
+
+## Key pages
+
+- [Home](https://victor.deglon.ai/): Name, position, class year, height/reach, video, one-line pitch.
+- [Stats / Measurables](https://victor.deglon.ai/stats/): Dated physical and skill numbers.
+- [Film](https://victor.deglon.ai/film/): Highlight reel and full-match film links.
+- [Schedule](https://victor.deglon.ai/schedule/): Upcoming tournaments and showcases.
+- [Academics](https://victor.deglon.ai/academics/): GPA, test scores, intended major, NCAA Eligibility Center status.
+- [About](https://victor.deglon.ai/about/): Bio, work ethic, leadership.
+- [Log](https://victor.deglon.ai/log/): Dated updates after each tournament — the freshness signal for this site.
+- [Training](https://victor.deglon.ai/training/): Training system and quantified development.
+- [Contact](https://victor.deglon.ai/contact/): Recruiting contact.
