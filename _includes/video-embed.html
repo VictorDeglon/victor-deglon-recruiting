@@ -1,0 +1,15 @@
+{% if site.data.profile.video_url != "" %}
+<div class="video-embed">
+  <iframe
+    src="{{ site.data.profile.video_url }}"
+    title="{{ site.data.profile.name }} highlight video"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+{% else %}
+<div class="video-embed video-embed--placeholder">
+  <p>Hudl coming soon.</p>
+</div>
+{% endif %}
