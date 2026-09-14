@@ -43,3 +43,23 @@ club_team_url: "https://coastvbc.com/teams/players/victor-deglon/"
 social:
   - "https://www.instagram.com/victordeglon.vb/"
   - "https://coastvbc.com/teams/players/victor-deglon/"
+
+# Footer social icon row. `url` blank = shown as a muted, non-clickable
+# placeholder so the slot is visible but not a dead link — fill in the
+# url whenever an account exists and it lights up automatically. `icon`
+# must be one of: instagram, github, hudl, link (generic fallback for
+# "and others" — twitter/x, tiktok, youtube, etc. all just use "link"
+# unless a dedicated icon gets added to _includes/footer.html).
+footer_social:
+  - name: "Instagram"
+    icon: "instagram"
+    url: "https://www.instagram.com/victordeglon.vb/"
+  - name: "Hudl"
+    icon: "hudl"
+    url: ""
+  - name: "GitHub"
+    icon: "github"
+    url: ""
+  - name: "More"
+    icon: "link"
+    url: ""
