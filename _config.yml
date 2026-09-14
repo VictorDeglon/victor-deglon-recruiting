@@ -2,8 +2,13 @@ title: "Victor Deglon | Opposite Hitter"
 description: >-
   Recruiting profile for Victor Deglon, opposite hitter — measurables, film,
   schedule, and academics for college volleyball recruiting.
-url: "https://victor.deglon.ai"
-baseurl: ""
+url: "https://victordeglon.github.io"
+baseurl: "/victor-deglon-recruiting"
+# TEMP: baseurl is set for previewing at the raw github.io project-page URL
+# (no custom domain attached right now). Once DNS for victor.deglon.ai is
+# live and CNAME is restored, this needs to go back to:
+#   url: "https://victor.deglon.ai"
+#   baseurl: ""
 lang: en_US
 
 # Used by jekyll-seo-tag for og:image fallback / twitter card default.
