@@ -1,0 +1,45 @@
+# Single source of truth for identity/entity data referenced across the site
+# (home, stats, contact, JSON-LD). Keep this consistent with MaxPreps, club
+# site, and any recruiting-service profiles — entity consistency is a real
+# ranking factor for both search engines and AI answer engines.
+
+name: "Victor Deglon"
+first_name: "Victor"
+last_name: "Deglon"
+sport: "Volleyball"
+position: "Opposite Hitter"   # UNCONFIRMED — flagged for you to verify
+class_year: "2030"
+graduation_year: "2030"
+height: "6'2\""
+club_team: "Coast 15-1s"
+club_division: "15 Open"
+high_school: "Poway High School"
+location: "San Diego, CA"
+gpa: "4.0"
+test_scores: ""          # no standardized test scores yet (freshman)
+intended_major: "TBD — exploring computer science / software engineering"
+ncaa_id: ""
+ncaa_status: "Not yet registered"
+
+# Primary highlight video — YouTube or Hudl embed URL. Leave blank to show
+# a "coming soon" placeholder on the homepage and film page.
+video_url: ""
+
+# Privacy: per the recruiting-privacy note, use a dedicated recruiting
+# email/parent or coach contact rather than a personal address.
+recruiting_email: "victor@deglon.ai"
+recruiting_phone: ""
+
+# Social / off-site profiles — fill in for backlinks + entity consistency.
+# maxpreps_url is also shown as its own row on the /contact/ page.
+maxpreps_url: ""          # no profile yet — see note on /contact/
+club_team_url: "https://coastvbc.com/teams/players/victor-deglon/"
+
+# Every profile URL worth citing in the sameAs JSON-LD (MaxPreps, Hudl,
+# club team page, Instagram, etc.) — add one per line, e.g.:
+#   social:
+#     - "https://www.maxpreps.com/..."
+#     - "https://www.hudl.com/..."
+social:
+  - "https://www.instagram.com/victordeglon.vb/"
+  - "https://coastvbc.com/teams/players/victor-deglon/"
