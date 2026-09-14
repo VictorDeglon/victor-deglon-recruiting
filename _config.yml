@@ -1,0 +1,62 @@
+title: "Victor Deglon | Opposite Hitter"
+description: >-
+  Recruiting profile for Victor Deglon, opposite hitter — measurables, film,
+  schedule, and academics for college volleyball recruiting.
+url: "https://victor.deglon.ai"
+baseurl: ""
+lang: en_US
+
+# Used by jekyll-seo-tag for og:image fallback / twitter card default.
+# Drop a 1200x630 image at assets/images/og-image.jpg and this just works.
+logo: /assets/images/og-image.jpg
+twitter:
+  card: summary_large_image
+social:
+  name: Victor Deglon
+  links:
+
+author:
+  name: "Victor Deglon"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Nav order — used by _includes/nav.html
+nav:
+  - title: Home
+    url: /
+  - title: Stats
+    url: /stats/
+  - title: Film
+    url: /film/
+  - title: Schedule
+    url: /schedule/
+  - title: Academics
+    url: /academics/
+  - title: About
+    url: /about/
+  - title: Log
+    url: /log/
+  - title: Training
+    url: /training/
+  - title: Contact
+    url: /contact/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "log-entry"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
