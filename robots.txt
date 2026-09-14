@@ -1,0 +1,43 @@
+---
+permalink: /robots.txt
+sitemap: false
+---
+# Default: allow everything. This is a recruiting profile — the goal is
+# maximum visibility to search AND AI crawlers, not restriction.
+User-agent: *
+Allow: /
+
+# Explicitly allow named AI crawlers rather than relying on the wildcard
+# above, since some boilerplate robots.txt templates block these by
+# default and that's the opposite of what a recruiting site wants.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: {{ site.url }}/sitemap.xml
