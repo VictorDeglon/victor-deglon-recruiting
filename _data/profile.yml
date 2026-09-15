@@ -43,6 +43,7 @@ club_team_url: "https://coastvbc.com/teams/players/victor-deglon/"
 social:
   - "https://www.instagram.com/victordeglon.vb/"
   - "https://coastvbc.com/teams/players/victor-deglon/"
+  - "https://github.com/VictorDeglon"
 
 # Footer social icon row. `url` blank = shown as a muted, non-clickable
 # placeholder so the slot is visible but not a dead link — fill in the
@@ -59,7 +60,7 @@ footer_social:
     url: ""
   - name: "GitHub"
     icon: "github"
-    url: ""
+    url: "https://github.com/VictorDeglon"
   - name: "More"
     icon: "link"
     url: ""
