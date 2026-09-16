@@ -14,7 +14,7 @@ permalink: /schedule/
   </p>
 
   {% if site.data.schedule.size > 0 %}
-  <div class="overflow-table">
+  <div class="responsive-table">
   <table>
     <thead>
       <tr><th>Event</th><th>Date</th><th>Location</th><th>Club / Division</th></tr>
@@ -22,13 +22,13 @@ permalink: /schedule/
     <tbody>
       {% for e in site.data.schedule %}
       <tr>
-        <td>{% if e.url != "" %}<a href="{{ e.url }}">{{ e.event }}</a>{% else %}{{ e.event }}{% endif %}</td>
-        <td>
+        <td data-label="Event">{% if e.url != "" %}<a href="{{ e.url }}">{{ e.event }}</a>{% else %}{{ e.event }}{% endif %}</td>
+        <td data-label="Date">
           <time datetime="{{ e.date }}">{{ e.date | date: "%b %-d, %Y" }}</time>
           {% if e.end_date %}&ndash; <time datetime="{{ e.end_date }}">{{ e.end_date | date: "%b %-d, %Y" }}</time>{% endif %}
         </td>
-        <td>{{ e.location }}</td>
-        <td>{{ e.club_team }}{% if e.division != "" %} &middot; {{ e.division }}{% endif %}</td>
+        <td data-label="Location">{{ e.location }}</td>
+        <td data-label="Club / Division">{{ e.club_team }}{% if e.division != "" %} &middot; {{ e.division }}{% endif %}</td>
       </tr>
       {% endfor %}
     </tbody>
