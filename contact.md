@@ -12,7 +12,7 @@ permalink: /contact/
   </p>
 
   <div class="overflow-table">
-  <table>
+  <table class="kv-table">
     <tbody>
       <tr><th scope="row">Recruiting email</th><td><a href="mailto:{{ site.data.profile.recruiting_email }}">{{ site.data.profile.recruiting_email }}</a></td></tr>
       {% if site.data.profile.recruiting_phone != "" %}
