@@ -13,7 +13,7 @@ permalink: /stats/
     for the training context behind each change.
   </p>
 
-  <div class="overflow-table">
+  <div class="responsive-table">
   <table>
     <caption>Physical measurables</caption>
     <thead>
@@ -22,17 +22,17 @@ permalink: /stats/
     <tbody>
       {% for row in site.data.stats %}
       <tr>
-        <td>{{ row.metric }}</td>
-        <td>{{ row.current }}</td>
-        <td>{{ row.goal | default: "—" }}</td>
-        <td>
+        <td data-label="Metric">{{ row.metric }}</td>
+        <td data-label="Current">{{ row.current }}</td>
+        <td data-label="Goal">{{ row.goal | default: "—" }}</td>
+        <td data-label="Last updated">
           {% if row.last_updated contains "-" and row.last_updated.size == 10 %}
           <time datetime="{{ row.last_updated }}">{{ row.last_updated }}</time>
           {% else %}
           {{ row.last_updated }}
           {% endif %}
         </td>
-        <td>{{ row.context | default: "—" }}</td>
+        <td data-label="Context">{{ row.context | default: "—" }}</td>
       </tr>
       {% endfor %}
     </tbody>
