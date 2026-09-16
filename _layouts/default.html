@@ -11,6 +11,17 @@
   <meta name="theme-color" content="#12181f">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   {% seo %}
+  {% comment %}
+    The github-pages gem pins an old jekyll-seo-tag that doesn't resolve
+    site.image into og:image/twitter:image, so these are hand-rolled
+    instead of relying on {% seo %} for them.
+  {% endcomment %}
+  <meta property="og:image" content="{{ '/assets/images/og-image.jpg' | absolute_url }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ site.data.profile.name }} — {{ site.data.profile.position }} volleyball recruiting profile">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ '/assets/images/og-image.jpg' | absolute_url }}">
   {% include person-schema.html %}
   {% include breadcrumb-schema.html %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
