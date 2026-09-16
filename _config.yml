@@ -6,7 +6,10 @@ url: "https://victor.deglon.ai"
 baseurl: ""
 lang: en_US
 
-# Used by jekyll-seo-tag for og:image fallback / twitter card default.
+# `image` drives og:image / twitter:image (jekyll-seo-tag). `logo` is a
+# separate field only used for the JSON-LD organization logo — keep both
+# pointed at the same file for consistency.
+image: /assets/images/og-image.jpg
 logo: /assets/images/og-image.jpg
 twitter:
   card: summary_large_image
