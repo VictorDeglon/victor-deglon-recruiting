@@ -14,7 +14,7 @@ permalink: /academics/
   </p>
 
   <div class="overflow-table">
-  <table>
+  <table class="kv-table">
     <tbody>
       <tr><th scope="row">GPA</th><td>{{ site.data.profile.gpa | default: "TBD" }}</td></tr>
       <tr><th scope="row">Test scores</th><td>{{ site.data.profile.test_scores | default: "TBD" }}</td></tr>
