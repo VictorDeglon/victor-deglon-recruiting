@@ -5,11 +5,21 @@
   "name": {{ site.data.profile.name | jsonify }},
   "url": {{ site.url | jsonify }},
   {% if site.data.profile.height != "" %}"height": {{ site.data.profile.height | jsonify }},{% endif %}
-  {% if site.data.profile.high_school != "" %}"alumniOf": {{ site.data.profile.high_school | jsonify }},{% endif %}
-  {% if site.data.profile.location != "" %}"homeLocation": {
-    "@type": "Place",
-    "name": {{ site.data.profile.location | jsonify }}
+  {% if site.data.profile.high_school != "" %}"alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": {{ site.data.profile.high_school | jsonify }}
   },{% endif %}
+  {% if site.data.profile.location != "" %}
+  {% assign loc_parts = site.data.profile.location | split: ", " %}
+  "homeLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": {{ loc_parts[0] | jsonify }}
+      {% if loc_parts[1] %},"addressRegion": {{ loc_parts[1] | jsonify }}{% endif %}
+    }
+  },
+  {% endif %}
   "jobTitle": {{ site.data.profile.position | jsonify }},
   "knowsAbout": {{ site.data.profile.sport | jsonify }}
   {% if site.data.profile.club_team != "" %},
