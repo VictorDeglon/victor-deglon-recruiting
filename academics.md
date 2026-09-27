@@ -20,7 +20,9 @@ permalink: /academics/
       <tr><th scope="row">Test scores</th><td>{{ site.data.profile.test_scores | default: "TBD" }}</td></tr>
       <tr><th scope="row">Intended major</th><td>{{ site.data.profile.intended_major | default: "TBD" }}</td></tr>
       <tr><th scope="row">High school</th><td>{{ site.data.profile.high_school | default: "TBD" }}</td></tr>
-      <tr><th scope="row">NCAA Eligibility Center ID</th><td>{{ site.data.profile.ncaa_id | default: "TBD" }}</td></tr>
+      {% if site.data.profile.ncaa_id != "" %}
+      <tr><th scope="row">NCAA Eligibility Center ID</th><td>{{ site.data.profile.ncaa_id }}</td></tr>
+      {% endif %}
       <tr><th scope="row">NCAA status</th><td>{{ site.data.profile.ncaa_status | default: "TBD" }}</td></tr>
     </tbody>
   </table>

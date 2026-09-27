@@ -8,13 +8,6 @@ permalink: /about/
 <section>
   <h1>About</h1>
 
-  <p class="note">
-    Rule for this page: no superlatives ("elite," "one of the best out
-    there"). Coaches verify everything against film — a claim without
-    matching film reads as a red flag, not a strength. Replace every
-    bracket below with a specific anecdote or fact, not an adjective.
-  </p>
-
   <h2>Bio</h2>
   <p>
     I started playing volleyball in June 2024 — rec ball at the beach
@@ -50,14 +43,6 @@ permalink: /about/
     better trying. I watch film and talk to people who know more
     than me about what to improve, and I talk to my coaches outside
     of practice to figure out what to work on before the next one.
-  </p>
-
-  <h2>Leadership</h2>
-  <p class="note">
-    [Still need a specific leadership anecdote here — a role you've
-    held, a moment you took ownership of a team problem, mentoring a
-    younger player. The work ethic above is strong but it's not a
-    leadership story; give me one and I'll write it up the same way.]
   </p>
 
   <h2>Off the court</h2>

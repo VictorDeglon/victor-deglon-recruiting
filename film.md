@@ -26,17 +26,9 @@ permalink: /film/
   {% endif %}
 
   <h2>Full match film</h2>
-  <p class="note">
-    Hudl coming soon. Once it's up, this section will list full-match
-    links by tournament name and date — coaches evaluating seriously
-    want game film, not just the highlight cut.
-  </p>
-
-  <h2>Timestamped plays</h2>
-  <p class="note">
-    [Optional but high-value: a short list of timestamps in the reel above
-    tied to specific plays — e.g. "0:42 — back-row attack vs. block" —
-    so a coach skimming in 15&ndash;30 seconds can jump straight to what
-    matters to them.]
+  <p>
+    Full-match film will be listed here by tournament and date as it
+    becomes available. If you need game film before then, please
+    <a href="{{ '/contact/' | relative_url }}">get in touch</a>.
   </p>
 </section>

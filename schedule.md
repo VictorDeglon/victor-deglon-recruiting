@@ -8,9 +8,8 @@ permalink: /schedule/
 <section>
   <h1>Schedule</h1>
   <p class="lede">
-    Club tournaments are where coaches do most in-person evaluation — this
-    page is kept current for that reason. Edit
-    <code>_data/schedule.yml</code> to add or remove events.
+    Club tournaments are where most in-person evaluation happens, so this
+    page is kept current through the season.
   </p>
 
   {% if site.data.schedule.size > 0 %}
@@ -36,8 +35,9 @@ permalink: /schedule/
   </div>
   {% else %}
   <p class="note">
-    No events posted yet. Add entries to <code>_data/schedule.yml</code> —
-    event name, date, location, club team, and division.
+    The coming club season's tournament dates aren't confirmed yet. Please
+    <a href="{{ '/contact/' | relative_url }}">email</a> for the current
+    schedule in the meantime.
   </p>
   {% endif %}
 </section>

@@ -12,7 +12,7 @@
 - [Film](https://victor.deglon.ai/film/): Highlight reel and full-match film links.
 - [Schedule](https://victor.deglon.ai/schedule/): Upcoming tournaments and showcases.
 - [Academics](https://victor.deglon.ai/academics/): GPA, test scores, intended major, NCAA Eligibility Center status.
-- [About](https://victor.deglon.ai/about/): Bio, work ethic, leadership.
+- [About](https://victor.deglon.ai/about/): Bio and work ethic.
 - [Log](https://victor.deglon.ai/log/): Dated updates after each tournament — the freshness signal for this site.
 - [Training](https://victor.deglon.ai/training/): Training system and quantified development.
 - [Contact](https://victor.deglon.ai/contact/): Recruiting contact.

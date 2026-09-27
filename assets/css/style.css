@@ -357,6 +357,15 @@ th { color: var(--ink-soft); font-weight: 600; font-size: .8rem; text-transform:
   border-radius: 4px;
 }
 
+.pitch {
+  background: var(--bg-alt);
+  border-left: 3px solid var(--accent);
+  padding: .9rem 1.1rem;
+  border-radius: 4px;
+  font-size: clamp(1rem, .95rem + .2vw, 1.1rem);
+  color: var(--ink);
+}
+
 .note {
   background: var(--bg-alt);
   border-left: 3px solid var(--accent);

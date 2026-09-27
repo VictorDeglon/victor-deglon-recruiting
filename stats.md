@@ -29,7 +29,7 @@ permalink: /stats/
           {% if row.last_updated contains "-" and row.last_updated.size == 10 %}
           <time datetime="{{ row.last_updated }}">{{ row.last_updated }}</time>
           {% else %}
-          {{ row.last_updated }}
+          {{ row.last_updated | default: "—" }}
           {% endif %}
         </td>
         <td data-label="Context">{{ row.context | default: "—" }}</td>
@@ -46,12 +46,5 @@ permalink: /stats/
     so this is the closest comparable — worth knowing where an
     11'2"&ndash;11'6" approach/touch reach range lands relative to it as
     that number climbs.
-  </p>
-
-  <h2>Skill numbers</h2>
-  <p class="note">
-    [Add hitting percentage, kill efficiency, serve-receive rating, or
-    other stat-line numbers here once available from match/tournament
-    data — with the same dated format as the table above.]
   </p>
 </section>

@@ -25,6 +25,6 @@ permalink: /log/
     {% endfor %}
   </div>
   {% else %}
-  <p class="note">No entries yet — add a new file under <code>_posts/</code> after the next tournament or PR.</p>
+  <p class="note">No entries yet — first update will be posted after the next tournament.</p>
   {% endif %}
 </section>

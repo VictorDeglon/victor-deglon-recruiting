@@ -27,8 +27,7 @@ permalink: /contact/
   </div>
 
   <p class="note">
-    A phone number isn't listed yet — add one in
-    <code>_data/profile.yml</code> when you're ready, ideally a
-    parent's or coach's number rather than a personal cell.
+    Email is the fastest way to reach me. Happy to put you in touch with
+    my club coach or a parent on request.
   </p>
 </section>

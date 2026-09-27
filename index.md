@@ -21,12 +21,10 @@ permalink: /
         <li><strong>Approach Reach:</strong> {{ site.data.stats[2].current }}</li>
       </ul>
 
-      <p class="note">
-        <strong>One-line pitch:</strong> [Add a single sentence here — the
-        specific thing a coach should remember: e.g. "Opposite with a 10'5"
-        touch reach and a serve that's forcing errors at the open club level."
-        Numbers, not adjectives — see the pushback on superlatives in the
-        <a href="{{ '/about/' | relative_url }}">About</a> page.]
+      <p class="pitch">
+        Class of 2030 opposite hitter, 6'2" with a 10'4" approach reach and a
+        56&nbsp;mph jump serve — now playing 15 Open with Coast 15-1s, after
+        finishing 20th at Nationals with Seaside 14 Black.
       </p>
 
       <div class="cta-row">
@@ -50,7 +48,7 @@ permalink: /
     <li><a href="{{ '/film/' | relative_url }}">Film<span class="desc">Highlight reel and full-match links.</span></a></li>
     <li><a href="{{ '/schedule/' | relative_url }}">Schedule<span class="desc">Upcoming tournaments and showcases.</span></a></li>
     <li><a href="{{ '/academics/' | relative_url }}">Academics<span class="desc">GPA, test scores, intended major, NCAA status.</span></a></li>
-    <li><a href="{{ '/about/' | relative_url }}">About<span class="desc">Bio, work ethic, leadership.</span></a></li>
+    <li><a href="{{ '/about/' | relative_url }}">About<span class="desc">How I got here and how I work.</span></a></li>
     <li><a href="{{ '/log/' | relative_url }}">Log<span class="desc">Dated updates after every tournament and PR.</span></a></li>
     <li><a href="{{ '/training/' | relative_url }}">Training<span class="desc">The training system behind the numbers.</span></a></li>
   </ul>

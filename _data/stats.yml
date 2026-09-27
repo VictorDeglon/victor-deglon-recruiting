@@ -10,7 +10,7 @@
 - metric: "Standing Reach"
   current: "8'0\""
   goal: ""
-  last_updated: "TBD"        # placeholder date from initial build — needs a real measurement date
+  last_updated: ""           # NEEDS A REAL DATE from Victor — renders as "—" until then
   context: ""
 - metric: "Approach / Touch Reach"
   current: "10'4\""
