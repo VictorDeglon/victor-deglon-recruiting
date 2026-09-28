@@ -2,13 +2,10 @@
 title: "Site launch"
 ---
 
-New recruiting site is live. Measurables, film, schedule, and academics
-pages are up — will update this log after every tournament and any new
-PR on vertical, reach, or serve speed.
+New recruiting site is live — measurables, film, schedule and academics
+pages are all up.
 
-Current baseline (see [Stats](/stats/) for the full, dated table):
-
-- Vertical jump: ~29.5&ndash;30"
-- Standing reach: 8'0"
-- Approach/touch reach: 10'5"
-- Serve speed: ~60 mph, ~70% in
+One convention worth stating once: the [stats table](/stats/) is the single
+source for every number on this site. Figures aren't repeated on other
+pages, so there is only ever one place to keep current — and never two
+versions of the same number to disagree with each other.

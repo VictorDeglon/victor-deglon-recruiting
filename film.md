@@ -7,7 +7,7 @@ permalink: /film/
 
 <section>
   <h1>Film</h1>
-  <p class="lede">Highlight reel first, full-match links below for coaches who want to see the whole game, not just the highlight package.</p>
+  <p class="lede">Highlight reel first, full-match film below — for coaches who want the whole game, not just the cut.</p>
 
   {% include video-embed.html %}
 

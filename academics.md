@@ -20,6 +20,9 @@ permalink: /academics/
       <tr><th scope="row">Test scores</th><td>{{ site.data.profile.test_scores | default: "TBD" }}</td></tr>
       <tr><th scope="row">Intended major</th><td>{{ site.data.profile.intended_major | default: "TBD" }}</td></tr>
       <tr><th scope="row">High school</th><td>{{ site.data.profile.high_school | default: "TBD" }}</td></tr>
+      {% if site.data.profile.coursework != "" %}
+      <tr><th scope="row">Coursework</th><td>{{ site.data.profile.coursework }}</td></tr>
+      {% endif %}
       {% if site.data.profile.ncaa_id != "" %}
       <tr><th scope="row">NCAA Eligibility Center ID</th><td>{{ site.data.profile.ncaa_id }}</td></tr>
       {% endif %}
@@ -28,17 +31,9 @@ permalink: /academics/
   </table>
   </div>
 
-  <p>
-    I'm a freshman on track to take AP Computer Science, Physics, and
-    Calculus, and I've kept a 4.0 GPA all through middle school and
-    into high school so far. No AP classes yet and no standardized
-    test scores — both come later. Looking at majoring in something
-    related to computer science or software engineering.
-  </p>
-
   <p class="note">
-    NCAA Eligibility Center registration isn't done yet — normal for a
-    freshman. Will update this page once that's registered and once
-    test scores exist.
+    No AP classes or standardized tests yet, and no NCAA Eligibility Center
+    registration — all three come later, which is normal for a class of 2030
+    athlete. This page updates as each one happens.
   </p>
 </section>

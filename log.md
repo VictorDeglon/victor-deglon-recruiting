@@ -8,9 +8,9 @@ permalink: /log/
 <section>
   <h1>Log</h1>
   <p class="lede">
-    Updated after every tournament and every measurable PR. This is the
-    freshness signal for the whole site — and the evidence trail behind
-    the numbers on the <a href="{{ '/stats/' | relative_url }}">stats page</a>.
+    Dated updates after every tournament and every measurable PR — the
+    evidence trail behind the numbers on the
+    <a href="{{ '/stats/' | relative_url }}">stats page</a>.
   </p>
 
   {% assign posts = site.posts %}

@@ -47,11 +47,9 @@ permalink: /about/
 
   <h2>Off the court</h2>
   <p>
-    I'm a freshman at Poway High School, on track to take AP
-    Computer Science, Physics, and Calculus, and looking at majoring
-    in something related to computer science or software engineering.
-    I've kept a 4.0 GPA all through middle school and into high
-    school so far. I also speak French fluently — I'm originally
-    from Switzerland.
+    I'm a freshman at Poway High School heading toward a computer science
+    major — GPA and coursework are on the
+    <a href="{{ '/academics/' | relative_url }}">academics</a> page. I also
+    speak French fluently; I'm originally from Switzerland.
   </p>
 </section>
